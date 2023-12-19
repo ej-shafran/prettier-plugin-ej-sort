@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/package.json",
+  "name": "prettier-plugin-ej-sort",
+  "version": "1.0.0",
+  "description": "A Prettier plugin for sorting CSS properties by a certain system.",
+  "main": "lib/plugin.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ej-shafran/prettier-plugin-ej-sort.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-plugin",
+    "css",
+    "scss",
+    "sort"
+  ],
+  "author": "ej-shafran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ej-shafran/prettier-plugin-ej-sort/issues"
+  },
+  "homepage": "https://github.com/ej-shafran/prettier-plugin-ej-sort#readme",
+  "peerDependencies": {
+    "prettier": "3.x"
+  },
+  "dependencies": {
+    "css-declaration-sorter": "^7.1.1",
+    "postcss": "^8.4.32",
+    "postcss-scss": "^4.0.9"
+  }
+}
